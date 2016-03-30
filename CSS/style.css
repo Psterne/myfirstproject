@@ -1,0 +1,82 @@
+header {
+  height: 250px;
+  background-color: #343843;
+  /*margin: -40px -15px 0px -15px;*/
+}
+
+h1, h2, h3, h4 {
+  font-style: "Roboto Slab", sans-serif;
+  text-align: center;
+  padding: 30px 0px 20px 0px;
+}
+
+h1 {
+  font-size: 50px;
+  color: #f3e8b6;
+}
+
+h2 {
+  color: #cc4f4d;
+}
+
+h3 {
+  color: #f3e8b6;
+}
+
+h4 {
+  color: #cc4f4d;
+}
+
+.btn:active {
+  background-color: white;
+  color: #cc4f4d;
+  border-color: #f3e8b6;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #cc4f4d;
+  border-color: #cc4f4d;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: #cc4f4d;
+  border-color: #f3e8b6;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #cc4f4d;
+  border-color: #f3e8b6;
+}
+
+.btn-secondary:hover {
+  background-color: white;
+  color: #f3e8b6;
+  border-color: #f3e8b6;
+}
+
+.sprtr {
+  border-style: solid;
+  border-bottom: 1px;
+  border-color: #EEE;
+  margin-top: 50px;
+}
+
+.story {
+  min-height: 250px;
+  background-color: white;
+}
+
+.history {
+  padding-right: 9%;
+}
+
+.team {
+  text-align: center;
+}
+
+.engineering, .support, .content {
+  display: none;
+}
