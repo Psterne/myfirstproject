@@ -1,30 +1,20 @@
+body {
+  text-align: center;
+}
+
 header {
   height: 250px;
   background-color: #343843;
-  /*margin: -40px -15px 0px -15px;*/
 }
 
 h1, h2, h3, h4 {
   font-style: "Roboto Slab", sans-serif;
-  text-align: center;
   padding: 30px 0px 20px 0px;
 }
 
 h1 {
   font-size: 50px;
-  color: #f3e8b6;
-}
-
-h2 {
-  color: #cc4f4d;
-}
-
-h3 {
-  color: #f3e8b6;
-}
-
-h4 {
-  color: #cc4f4d;
+  color: white !important;
 }
 
 .btn:active {
@@ -70,12 +60,10 @@ h4 {
 }
 
 .history {
-  padding-right: 9%;
+  text-align: left;
+  padding-right: 9% !important;
 }
 
-.team {
-  text-align: center;
-}
 
 .engineering, .support, .content {
   display: none;
